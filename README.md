@@ -20,4 +20,4 @@ Features que no funcionan y problemas:
   -No se listan todas las ciudades del Paraguay que contiene la api de OpenWeather.
   -Error de truncamiento al realizar las conversiones de unidades de temperatura.
   -Al ingresar a la patanlla de "Detalle de clima", los datos demoran 1 a 1,5 segs en cargar.
-  -
+
