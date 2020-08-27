@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Paraguay Weather</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="unidades">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+</resources>
