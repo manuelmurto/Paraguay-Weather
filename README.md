@@ -2,8 +2,20 @@
 
 Autor: Manuel Murto
 
-Esta aplicación fue desarrollada en Android Studio (4.0.1) con Java, compilado con el SDK 29.
+Esta aplicación fue desarrollada en Android Studio (4.0.1) con la version de Gradle 6.1.1, compilado con el SDK 29.
 
+Requisitos para instalar:
+  -SDK 29
+  -Gradle 6.1.1
+  -Android Studio (4.0.1)
+  
+  Para la api key:
+    -Cree un archivo de texto llamado "sensitive_data.txt"
+    -Dentro del archivo guarde su api key de la siguiente forma:
+        apiKey = "SU API KEY"
+    -No olvide las comillas
+    -Coloque el archivo en el directorio principal del proyecto. (donde se encuentra el .gitignore, build.gradle, gradle.properties etc)
+    
 
 
 Features que funciona:
@@ -14,7 +26,6 @@ Features que funciona:
   -Selector de unidades: en la parte inferior de la pantalla "Detalle de temperatura" tenemos un spinner que nos permite seleccionar en que unidad queremos ver la temperatura
   -Se puede visualizar la temperatura (obtenida desde la API de openweathermap) en Celsius, Kelvin y Fahrenheit.
   -Esto se puede repetir para cada uno de las 5 ciudades.
-  -Finalmente, la api key no se sube al repositorio de manera plana. Se encuentra incluido en el gradle build:app.
   
 Features que no funcionan y problemas:
   -No se listan todas las ciudades del Paraguay que contiene la api de OpenWeather.
